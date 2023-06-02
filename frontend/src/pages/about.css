@@ -1,0 +1,42 @@
+/* about.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.custom-bg-color {
+  background-color: #88c2df;
+}
+
+h1.headline {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.text-center {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.fs-5 {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.about-text {
+  background-image: none; /* Remove the background gradient */
+  background-color: transparent; /* Set a transparent background color for the about text */
+  color: #000000; /* Set the text color to black */
+  font-family: 'Poppins', sans-serif; /* Apply Poppins font */
+  /* Add any other styles as needed */
+}

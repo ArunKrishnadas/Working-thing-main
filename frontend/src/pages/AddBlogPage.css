@@ -1,0 +1,57 @@
+/* AddBlogPage.css */
+
+#b {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #88c2df;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-top: 20px;
+}
+
+form label {
+  font-size: 1.25rem;
+  color: #343a40;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.form-input-text {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  flex-grow: 1;
+  background-color: white;
+  color: #343a40;
+}
+
+form button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-left: 10px;
+}
+
+#b .quill-container {
+  height: 400px;
+  margin-bottom: 20px;
+  border: 1px solid #ced4da;
+  min-height: 200px;
+  max-height: 400px;
+  overflow-y: auto;
+}

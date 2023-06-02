@@ -1,0 +1,52 @@
+#b {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-top: 20px;
+}
+
+form label {
+  font-size: 1.25rem;
+  color: #343a40;
+  margin-bottom: 10px;
+}
+
+form input[type="text"] {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+form button[type="submit"] {
+  align-self: flex-end;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+#b .quill-container {
+  height: 400px;
+  margin-bottom: 20px;
+  border: 1px solid #ced4da;
+  min-height: 200px;
+  max-height: 400px;
+  overflow-y: auto;
+}
